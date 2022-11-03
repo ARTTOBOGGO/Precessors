@@ -45,7 +45,7 @@ class Application(tk.Tk, Configure_widgets):
 
     def make_bar_cpu_uage(self):
         ttk.Label(
-            self.bar2, text=f'physical cores: {self.cpu.cpu_count},logical cores: {self.cpu.cpu_count_logical}',
+            self.bar2, text=f'physical cores: {self.cpu.cpu_count},logical core: {self.cpu.cpu_count_logical}',
             anchor=tk.CENTER).pack(fill=tk.X)
 
         self.list_label = []
